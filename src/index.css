@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+.app {
+    width: 460px;
+    background-image: url("./img/day\ with\ forest.png");
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s ease-out;
+}
+.app.winter {
+    background: url("./img/winter.png");
+}
+.main {
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.75)
+    );
+    padding: 25px;
+}
+.search-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 0 75px;
+}
+
+.search-box .search-bar {
+    flex: 0 0 80%;
+    display: block;
+    width: 100%;
+    margin-top: -25px;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    appearance: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 15px 15px;
+}
+.search-box .search-bar:not(:last-child) {
+    margin-right: 30px;
+}
+.clocks {
+    margin-top: -15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    flex: 1 1 auto;
+    z-index: 2;
+}
+.location-box {
+    color: #fff;
+    text-align: center;
+}
+
+.location-box .location {
+    font-size: 32px;
+    font-weight: 500;
+
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.location-box .location:not(:last-child) {
+    margin-bottom: 10px;
+}
+.location-box .date {
+    font-size: 20px;
+    font-weight: 300;
+}

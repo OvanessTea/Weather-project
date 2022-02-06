@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Weather-project/static/css/main.b237021b.css",
+    "main.js": "/Weather-project/static/js/main.28f861b0.js",
+    "static/media/lake.png": "/Weather-project/static/media/lake.bcd7fbbbcb966991810f.png",
+    "static/media/day with forest.png": "/Weather-project/static/media/day with forest.8eda2b87bdc3c9450b92.png",
+    "static/media/winter.png": "/Weather-project/static/media/winter.b630e505a0fd75039b60.png",
+    "static/media/sunset with rain.png": "/Weather-project/static/media/sunset with rain.3236d339cee8ef15a095.png",
+    "static/media/sky with clouds.png": "/Weather-project/static/media/sky with clouds.652daf4567028fe93027.png",
+    "index.html": "/Weather-project/index.html",
+    "main.b237021b.css.map": "/Weather-project/static/css/main.b237021b.css.map",
+    "main.28f861b0.js.map": "/Weather-project/static/js/main.28f861b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b237021b.css",
+    "static/js/main.28f861b0.js"
+  ]
+}

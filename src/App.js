@@ -1,5 +1,5 @@
 import { API_KEY, API_URL } from "./config";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Clock from "react-live-clock";
 
 function App() {
